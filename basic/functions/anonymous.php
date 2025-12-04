@@ -39,3 +39,13 @@ echo $message; // now message is changed due to it pass by refrence not passes a
  * use($var) => passes copy -> outside variable unchanged .
  * use(&$var) => passes refrence -> outside variable changes.
  */
+
+// variable REFERENCE 
+$person = "harshit";
+$client1 = $person;
+$client2 = &$person;
+echo("\n");
+var_dump($client1,$client2,$person);
+$client2 ="jhon";
+// as client2 variable changes its value then person variable also changes its value 
+var_dump($client1,$client2,$person);
