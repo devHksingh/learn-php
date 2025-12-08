@@ -1,0 +1,21 @@
+{
+    "name": "hksin/composer",
+    "description": "test project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hksin\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devHksingh",
+            "email": "hksingh.dev@gmail.com"
+        }
+    ]
+}

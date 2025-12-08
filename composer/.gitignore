@@ -1,0 +1,12 @@
+# Composer dependencies
+/vendor/
+composer.phar
+
+
+
+# Other common files to ignore (not Composer-specific but good practice)
+.env
+.env.local
+.DS_Store
+*.log
+/tmp/
